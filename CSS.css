@@ -1,0 +1,372 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+}
+.main {
+	min-width: 900px;
+	max-width: 100%;
+	height: 100%;
+	background: #000;
+}
+.header {
+	overflow: hidden;
+	height: 110px;
+}
+.logo {
+	float: left;
+	margin: 25px 40px 0 60px; 
+}
+.right_menu {
+	float: right;
+	margin: 45px 60px 0 0;
+}
+	.RMenu {
+		display: inline-block;
+		margin: 0 10px 0 20px;
+	}
+	.RMenu:hover {
+		padding: 0 0 2px 0;
+		border-bottom: 1px solid #fff;
+	}
+	.right_menu p {
+		display: inline-block;
+		font: bold 13px Verdana, Geneva, Sans-serif;
+		color: #fff;
+	}
+	#searchHeader {
+		display: none;
+		width: 180px;
+		height: 25px;
+		background-color: #fff;
+		border-radius: 50px;
+		background: #000;
+		border: 2px solid #fff;
+		margin: 10px -145px 0 -145px;
+	}
+	#search {
+		font: italic 13px Verdana, Geneva, Sans-serif;
+		color: #fff;
+		width: 150px;
+		height: 19px;
+		outline: none;
+		border: none;
+		margin: 3px 15px;
+		background: #000;
+	}
+	#walet{
+		display: none;
+		position: absolute;
+		z-index: 2;	
+		top: 70px;
+		right: 60px;
+	}
+	.walet li {
+		list-style: none;
+	}
+	.walet li a {
+		display: block;
+		width: 170px;
+		height: 20px;
+		font: bold 13px Verdana, Geneva, Sans-serif;
+		color: #fff;
+		line-height: 20px;
+		text-indent: 10px;
+		margin: 5px 0;
+		border: 2px solid #fff;
+		border-radius: 5px;
+		text-decoration: none;
+
+		transition: background .2s ease-in-out;
+	}
+	.walet li a:hover, .celected {
+		background: #7bb4d2;
+	}
+	.walet > li > a:first-child {
+		height: 40px;
+		line-height: 40px;
+		text-transform: uppercase;
+	}
+	.account {
+		display: none;
+	}
+.menu {
+	margin: 45px auto 0 auto;
+}
+	.menu li {
+		display: inline-block;
+		list-style: none;
+		margin: 0 10px;
+	}
+		.menu li a {
+			font: bold 13px Verdana, Geneva, Sans-serif;
+			color: #fff;
+			text-decoration: none;
+
+			transition: all .2s ease-in-out;
+		}
+		.menu li a:hover {
+				color: #7bb4d2;
+				font-size: 14px;	
+				margin: 0 10px 0 10px;
+			}
+
+.baner {
+	position: relative;
+	background: #fff;
+	z-index: 1;
+}
+	.baner img {
+		width: 100%;
+	}
+	.baner a {
+		position: absolute;
+		top: 42%;
+		left: 29%;
+		margin: 14px 454px 10px 0px;
+	}
+		.baner a img {
+			width: 100%;
+		}
+	.baner input {
+		position: absolute;
+		top: 76%;
+		left: 53%;
+		width: 11%;
+		border-radius: 5px;
+		opacity: 0.3;
+
+		transition: all .2s ease-in-out;
+	}
+	.baner input:hover {
+		width: 12%;
+		opacity: 1;
+	}
+.slider {
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	width: 100%;
+	height: 1060px;
+}
+	.boardHead {
+		widows: 100%;
+		height: 200px;
+		margin: 140px 0 50px 0;
+	}
+		.slider div h1 {
+			font: bold 48px Verdana, Geneva, Sans-serif;
+			color: #000;
+			text-align: center;
+			padding: 10px;
+		}
+		.slider div p {
+			font: bold 14px Verdana, Geneva, Sans-serif;
+			color: #000;
+			text-align: center;
+			padding: 10px;
+		}
+		.cross {
+			margin: 10px 49%;
+		}
+		.boards {
+			position: relative;
+			overflow: hidden;
+			display: table-row;
+		}
+		.boards ul {
+			margin: 40px -215px 10px -215px;
+		}
+		.boards li {
+			display: table-cell;
+			width: 1000px;
+			text-align: center;
+		}
+		.boards li {
+			opacity: 0.5;
+		}
+		.wrapBord {
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			height: 445px;
+		}
+		.left {
+			position: absolute;
+			top: 25%;
+			left: 0;
+			margin: 15px 14px;
+			cursor: pointer;
+		}
+			.left:hover {
+				background-image: url(images/leftPress.png);
+			}
+		.right {
+			position: absolute;
+			top: 25%;
+			right: 0;
+			margin: 15px 14px;
+			cursor: pointer;
+		}
+			.right:hover {
+				background-image: url(images/rightPress.png);
+			}
+	#sliderDisc {
+		text-align: center;
+		font: bold 24px Verdana, Geneva, Sans-serif;
+		color: #000;
+		padding: 10px;
+		text-align: center;
+		margin: 40px 0 0 0;
+	}	
+.snowbords {
+	position: relative;
+	overflow: hidden;
+}
+	.snowbords img {
+		width: 100%;
+	}
+	.snowbords h1 {
+		position: absolute;
+		font: bold 48px Verdana, Geneva, Sans-serif;
+		color: #fff;
+		top: 20%;
+		left: 15%;
+		width: 470px;
+	}
+	.snowbords p {
+		position: absolute;
+		font: 15px Verdana, Geneva, Sans-serif;
+		color: #fff;
+		top: 40%;
+		left: 15%;
+		width: 50%;
+	}	
+.features {
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	width: 100%;
+}
+	.featureHead {
+		height: 160px;
+		margin: 140px 0 10px 0;
+	}
+	.featureHead h1 {
+		font: bold 48px Verdana, Geneva, Sans-serif;
+		color: #000;
+		text-align: center;
+		padding: 10px;
+	}
+	.cross2 {
+			margin: 10px 49%;
+		}
+		.featureMain {
+			overflow: hidden;
+			margin: 0 0 60px 0;
+		}
+		.featureMain ul {
+			text-align: center;
+			margin: 5px 15%;
+		}
+		.featureMain li {
+			display: inline-block;
+			width: 220px;
+			vertical-align: top;
+			margin: 10px 0 30px 0;
+		}
+		
+		.featureMain img {
+			height: 160px;
+			width: 220px;
+			padding: 5px;
+		}
+		.featureMain ul li p {
+			font: 16px Verdana, Geneva, Sans-serif;
+			color: #000;
+			padding: 10px;
+			text-align: left;
+		}
+	
+.footer {
+	
+}
+	.footerHead {
+		margin: 5px 15%;
+	}
+		.footerHead div {
+			display: table-cell;
+			vertical-align: top;
+			width: 17%;
+			padding: 5px;
+
+		}
+			.footerHead h2 {
+				font: bold 14px Verdana, Geneva, Sans-serif;
+				color: #fff;
+				margin: 70px 0 20px 0;
+			} 
+			.footerHead li a {
+				font: 14px Verdana, Geneva, Sans-serif;
+				color: #c9c9c9;
+				list-style: none;
+				text-decoration: none;
+
+				transition: all .2s ease-in-out;
+			}
+			.footerHead li a:hover {
+				color: #7bb4d2;	
+				font-size: 15px;
+				margin-left: -10px;
+			}
+			.footerHead div:last-child li a {
+				transition: all .2s ease-in-out;
+			}
+			.footerHead div:last-child li a:hover {
+				margin: 0 5px;
+			}
+
+			.footerHead li {
+				padding: 5px 0;
+			}
+	.search {
+		list-style: none;
+		background: url(images/bg-search.png) no-repeat; 
+		width: 220px;
+		height: 42px;
+		margin: 0 -70px 0 0;
+	}
+	#quickquery {
+		border: none;
+		padding: 8px 29px 12px 13px;
+		width: 120px;
+		font: 14px Verdana, Geneva, Sans-serif;
+		color: #000;
+	}
+	.search_bt {
+		margin: 5px 0 0 10px; 
+	}
+	.search li {
+		float: left;
+	}
+	.links {
+		width: 240px;
+		padding: 10px 0;
+		margin: 0 -80px 0 0;
+	}
+	.links li {
+		display: inline-block;
+		list-style: none;
+		padding: 65px 10px;
+	}
+	.bottom {
+		margin: 5px 15%;
+	}
+		.bottom p {
+			font: 14px Verdana, Geneva, Sans-serif;
+			color: #fff;
+			display: inline-block;
+		}
+		
